@@ -1,0 +1,1034 @@
+.navbar .navbar-nav .nav-item a {
+  padding: 20px;
+  color: rgba(51, 51, 51, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  /* text-align: left; */
+}
+.navbar-nav .nav-but a {
+  background: rgba(228, 117, 54, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.navbar .navbar-nav .nav-item a:hover {
+  color: rgba(106, 61, 164, 1);
+}
+.nav-link {
+  position: relative;
+  padding-bottom: 5px;
+  transition: all 0.2s ease-in-out 0s;
+}
+.nav-link:hover::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s ease;
+  background-color: rgba(106, 61, 164, 1);
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.btn,
+.addmision-btn {
+  margin-right: 65px;
+}
+
+/* ------------------inspireel-home-section-background-image-------------------------- */
+.bg-img {
+  background: url(images/inspireel-hm-bg-img1.png) no-repeat;
+ 
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  padding: 5% 0 5% 0;
+}
+.admission-heading-bg-color-box {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 30%;
+  border-radius: 10px;
+  padding-left: 1%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  margin-left: 3%;
+  margin-top: 17%;
+}
+
+.admision-box-content-h1 {
+  color: rgba(51, 51, 51, 1);
+  padding-top: 5%;
+  font-size: 2rem;
+}
+
+.admission-heading-bg-color-box-button {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  padding: 2% 8%;
+  text-align: center;
+  background-color: rgba(228, 117, 54, 1);
+  border: none;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 15%;
+}
+
+/* --------------------home section background img media query-------------- */
+@media (min-width: 320px) and (max-width: 1000px) {
+  /* -----------------home section----------------------------- */
+  .bg-img {
+    width: 100vw;
+    background-size: cover;
+    /* height: 60vh; */
+    background-position: center;
+    /* padding: 0px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .admission-heading-bg-color-box {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .admision-box-content-h1 {
+    font-size: 1.5rem;
+  }
+  .admission-heading-bg-color-box-button {
+    font-size: 0.9rem;
+    margin-bottom: 2%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .admission-heading-bg-color-box {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .admision-box-content-h1 {
+    font-size: 2rem;
+  }
+
+  .admission-heading-bg-color-box-button {
+    font-size: 1rem;
+    margin-bottom: 1%;
+  }
+}
+
+/* --------------------about us section 2 starts from here--------------------- */
+.inspireel-hm-sec2-main {
+  width: 100%;
+  /* height: 50vh; */
+  background-color: rgba(106, 61, 164, 0.15);
+  padding: 5% 0 5% 0;
+}
+
+.inspireel-hm-sec2-main-row {
+  display: flex;
+  justify-content: center;
+}
+
+.inspireel-hm-sec2-main-row-col1 {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  /* align-items: center; */
+}
+.inspireel-hm-sec2-main-row-col2 {
+  width: 40%;
+  display: flex;
+  justify-content: end;
+}
+
+.inspireel-hm-sec2-main-row-col2 img {
+  width: 75%;
+  border: 10px solid rgba(228, 117, 54, 1);
+  border-right: none;
+  /* border-radius: 10px; */
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.inspireel-hm-sec2-main-row-col1-p1 {
+  /* background: url(/school-website/gallery/inspereel-hm-sec2-left-col-title-bg.png) no-repeat; */
+  font-size: 2.5rem;
+  color: rgb(106 61 164);
+  /* padding: 1% 0% 1% 1%; */
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 88px;
+  margin-left: 11%;
+  /* text-align: left; */
+  margin-bottom: 0;
+}
+
+.inspireel-hm-sec2-main-row-col1-p2 {
+  color: rgba(106, 61, 164, 1);
+  margin-top: 0%;
+  margin-right: 10%;
+  font-size: 1.2rem;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  margin-left: 11%;
+}
+
+.inspireel-hm-sec2-main-row-col1-button {
+  font-size: 1rem;
+  padding: 1% 4%;
+  border: none;
+  background: rgba(228, 117, 54, 1);
+  border-radius: 5px;
+  color: white;
+  margin-top: 0%;
+  font-family: "Inter", sans-serif;
+  margin-left: 11%;
+}
+/* -----------------about us section media query----------------------- */
+@media (min-width: 320px) and (max-width: 1000px) {
+  .inspireel-hm-sec2-main {
+    padding: 0;
+  }
+  .inspireel-hm-sec2-main-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .inspireel-hm-sec2-main-row-col2 img {
+    width: 50%;
+    border: 10px solid rgba(228, 117, 54, 1);
+    border-radius: 8px;
+  }
+  .inspireel-hm-sec2-main-row-col1-p1 {
+    margin: 0;
+    text-align: center;
+  }
+  .inspireel-hm-sec2-main-row-col1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .inspireel-hm-sec2-main-row-col2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .inspireel-hm-sec2-main-row-col1-button-1 {
+    display: flex;
+    justify-content: center;
+    /* margin: 0; */
+  }
+  .inspireel-hm-sec2-main-row-col1-button {
+    margin: 0;
+  }
+
+  /* .inspireel-hm-sec2-main-row-col1-button{
+     padding: 11px 40px;
+     font-size: 1rem;
+    } */
+}
+
+/* -----------------section 3 our mission , vision , moto------------------ */
+.inspireel-hm-sec3-main{
+    width: 100%;
+    padding: 5% 0% 5% 0%;
+    
+}
+.inspireel-hm-sec3-main-row{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.inspireel-hm-sec3-main-row-card-1{
+    width: 20%;
+    background-color:rgba(106, 61, 164, 1);
+    border-radius: 10px;
+}
+    
+    
+
+.inspireel-hm-sec3-main-row-card-2{
+    width: 20%;
+    background-color:rgba(106, 61, 164, 1);
+    border-radius: 10px;
+}
+.inspireel-hm-sec3-main-row-card-3{
+    width: 20%;
+    background-color:rgba(106, 61, 164, 1);
+    border-radius: 10px;
+    /* background-color:rgba(106, 61, 164, 1); */
+}
+.inspireel-hm-sec3-main-row-card-1-h1{
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+    margin-top: 4%;
+
+}
+.inspireel-hm-sec3-main-row-card-1-p1{
+  
+    text-align: center;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 10%;
+    margin: 3% 11% 0% 11%;
+    color:rgba(255, 255, 255, 1);
+    ;
+}
+.inspireel-hm-sec3-main-row-card-2-h1{
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+    margin-top: 4%; 
+}
+
+.inspireel-hm-sec3-main-row-card-3-h1{
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+    /* margin-top: 4%; */
+    padding-top: 10px;
+}
+
+.inspireel-hm-sec3-main-row-card-2-p1{
+  
+    text-align: center;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 10%;
+    margin: 3% 11% 0% 11%;
+    color:rgba(255, 255, 255, 1);
+    ;
+}
+
+.inspireel-hm-sec3-main-row-card-3-p1{
+  
+    text-align: center;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    /* padding-bottom: 10%; */
+    margin: 3% 11% 0% 11%;
+    color:rgba(255, 255, 255, 1);
+    
+}
+
+.inspireel-hm-sec3-main-row-card-3-img{
+    height: 100%;
+    /* width: 100%; */
+    /* background-image: url(/images/inspireel-section-3-our-moto-img.png); */
+    background-image: url(images/inspireel-section-3-our-moto-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding-top: 20px; */
+}
+/* ---------------section 3 media query------------------- */
+@media (min-width:320px) and (max-width:1000px) {
+    @media (min-width:700px) and (max-width:1000px){
+        .inspireel-hm-sec3-main-row-card-1, .inspireel-hm-sec3-main-row-card-2, .inspireel-hm-sec3-main-row-card-3{
+            width: 30%;
+        }
+    
+        .inspireel-hm-sec3-main-row-card-1-h1, .inspireel-hm-sec3-main-row-card-2-h1, .inspireel-hm-sec3-main-row-card-3-h1 {
+            font-size: 20px;
+        }
+    
+        .inspireel-hm-sec3-main-row-card-1-p1, .inspireel-hm-sec3-main-row-card-2-p1, .inspireel-hm-sec3-main-row-card-3-p1 {
+            font-size: 15px;
+        }
+    
+    }
+    
+    
+    @media (min-width:500px) and (max-width:701px){
+    
+        .inspireel-hm-sec3-main-row{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .inspireel-hm-sec3-main-row-card-1{
+            width: 50%;
+            /* height: auto; */
+        }
+    
+        .inspireel-hm-sec3-main-row-card-2{
+            width: 50%;
+            /* height: auto; */
+        }
+    
+        .inspireel-hm-sec3-main-row-card-3{
+            width: 50%;
+            /* height: auto; */
+            /* padding-top: 10px; */
+            /* padding-bottom: 133px; */
+        }
+    
+        .inspireel-hm-sec3-main-row-card-3-img{
+            padding-bottom: 144px; 
+        }
+    
+    
+        .inspireel-hm-sec3-main-row-card-1-h1, .inspireel-hm-sec3-main-row-card-2-h1, .inspireel-hm-sec3-main-row-card-3-h1 {
+            font-size: 20px;
+        }
+    
+        .inspireel-hm-sec3-main-row-card-1-p1, .inspireel-hm-sec3-main-row-card-2-p1, .inspireel-hm-sec3-main-row-card-3-p1 {
+            font-size: 15px;
+        }
+    
+    }
+    
+    @media (min-width:320px) and (max-width:501px){
+    
+        .inspireel-hm-sec3-main-row{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .inspireel-hm-sec3-main-row-card-1{
+            width: 70%;
+            /* height: auto; */
+        }
+    
+        .inspireel-hm-sec3-main-row-card-2{
+            width: 70%;
+            /* height: auto; */
+        }
+    
+        .inspireel-hm-sec3-main-row-card-3{
+            width: 70%;
+           
+        }
+    
+        .inspireel-hm-sec3-main-row-card-3-img{
+            padding-bottom: 130px; 
+        }
+        .inspireel-hm-sec3-main-row-card-1-h1, .inspireel-hm-sec3-main-row-card-2-h1, .inspireel-hm-sec3-main-row-card-3-h1 {
+            font-size: 15px;
+        }
+    
+        .inspireel-hm-sec3-main-row-card-1-p1, .inspireel-hm-sec3-main-row-card-2-p1, .inspireel-hm-sec3-main-row-card-3-p1 {
+            font-size: 12px;
+        }
+    
+    }
+}
+
+/* ---------------------section 4 starts from here--------------------- */
+.insipreel-sec-4-main{
+    padding: 5% 0 5% 0;
+    background-color:rgba(57, 13, 114, 0.15);
+    
+    ;
+}
+.insipreel-sec-4-row{
+    display: flex;
+    justify-content: center;
+}
+
+.inpireel-sec-4-h1{
+    font-family: "Inter", sans-serif;
+font-size: 2rem;
+font-weight: 700;
+line-height: 43.75px;
+/* text-align: left; */
+color: rgba(106, 61, 164, 1);
+margin-left: 11%;
+}
+
+
+.inpireel-sec-4-p1{
+    color: rgba(106, 61, 164, 1);
+    margin-top: 2%;
+    margin-right: 15%;
+    font-size: 1.2rem;
+    line-height: 29px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-left: 11%;
+       
+    
+}
+.insipreel-sec-4-col2 img{
+    width: 80%;
+    height: auto;
+}
+/* ---------------------section 4 media query--------------------- */
+@media (min-width:768px) and (max-width:1000px){
+    .insipreel-sec-4-col2 img{
+        width: 100%;
+        height: 100%; 
+    }
+    .insipreel-sec-4-col2{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* .insipreel-sec-4-main-container{
+        margin: 0;
+    } */
+
+    .inpireel-sec-4-p1{
+     font-size: 15px;
+     padding: 0;
+     margin: 0;
+    }
+    
+}
+@media (min-width:768px) and (max-width:1000px){
+    .insipreel-sec-4-col2 img{
+        width: 100%;
+        height: 100%; 
+    }
+    .insipreel-sec-4-col2{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* .insipreel-sec-4-main-container{
+        margin: 0;
+    } */
+
+    .inpireel-sec-4-p1{
+     font-size: 15px;
+     padding: 0;
+     margin: 0;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:1000px){
+    .insipreel-sec-4-col2 img{
+        width: 100%;
+        height: 100%; 
+    }
+    .insipreel-sec-4-col2{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* .insipreel-sec-4-main-container{
+        margin: 0;
+    } */
+
+    .inpireel-sec-4-p1{
+     font-size: 15px;
+     padding: 0;
+     margin: 0;
+    }
+    
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .insipreel-sec-4-col2 img{
+        width: 60%;
+        height: auto; 
+    }
+    .insipreel-sec-4-col2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .inpireel-sec-4-p1{
+     font-size: 13px;
+     padding: 0;
+     margin: 0;
+    }
+    
+}
+
+/* ---------------------section 6 4 cards---------------------- */
+.insipreel-sec-6-main{
+    padding: 5% 0 5% 0;
+    background: #e1dbea;
+}
+.insipreel-sec-4-cards{
+    width: 100%;
+    height: 100%;
+}
+
+.card, .insipreel-sec-4-cards{
+    background-color: #6a3da4 !important;
+    padding: 3% 3% 0 3%;
+}
+.insipreel-sec-6-main-container{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.insipreel-sec-4-cards-p1{
+    color:rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: center;
+    
+    ;
+    /* background: rgba(106, 61, 164, 1); */
+
+}
+.insipreel-sec-4-cards-body{
+    background: rgba(106, 61, 164, 1);
+
+}
+.insipreel-sec-6-main-h1{
+    font-family: "Inter", sans-serif;
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 43.75px;
+/* text-align: left; */
+color:  rgba(106, 61, 164, 1);
+margin-left: 11%
+;
+
+}
+
+.insipreel-sec-4-button{
+    font-size: 1.2rem;
+    padding: 1% 3%;
+    border: none;
+    background: rgba(228, 117, 54, 1);
+    border-radius: 14px;
+    color: white;
+    margin-top: 0%;
+    font-family: "Inter", sans-serif;
+    /* margin-left: 11%; */
+    margin-top: 2%;
+}
+.insipreel-sec-4-btn{
+    display: flex;
+    justify-content: center;
+}
+.icon-font{
+    font-size: 1.2rem;
+}
+
+/* ----------------------------section 6 4 cards media query---------------- */
+@media (min-width:320px) and (max-width:576px){
+      .insipreel-sec-6-main-container-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .insipreel-sec-6-main-h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 0;
+      }
+      
+}
+
+/* --------------------------section 5 starts from here--------------------- */
+.insipreel-sec-5-main{
+  padding: 5% 0 5% 0;
+}
+
+.insipreel-sec-5-main-container-heading1{
+  font-family: "Inter", sans-serif;
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 43.75px;
+text-align: center;
+color: rgba(106, 61, 164, 1);;
+
+}
+.insipreel-sec-5-main-container-heading{
+  margin-bottom: 2%;
+}
+
+
+
+.insipreel-sec-5-main-container-cols-1{
+  /* background-color: color(srgb red green blue); */
+  background: rgba(228, 117, 54, 1);
+  text-align: center;
+  padding: 13% 0;
+  height: 100%;
+  border-radius: 10px;
+
+
+}
+.insipreel-sec-5-main-container-cols-2{
+  background: rgba(106, 61, 164, 1);
+  text-align: center;
+  padding: 13% 0;
+  height: 100%;
+  border-radius: 10px;
+
+}
+.insipreel-sec-5-main-container-cols-p1{
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 33.89px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 10%;
+  ;
+  
+}
+
+/* ------------------------section 5 media query starts from here----------- */
+@media (min-width:320px) and (max-width:1000px) {
+  .insipreel-sec-5-main-container-cols-p1{
+    font-size: 1.5rem;
+  }
+}
+
+/* -----------------section 7 -----3 images------------------ */
+.inspireel-sec-7-main{
+  padding: 5% 0 5% 0;
+}
+.inspireel-sec-7-main-heading{
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 43.75px;
+  /* text-align: left; */
+  color: rgba(106, 61, 164, 1);
+  margin-left: 11%;
+  margin-bottom: 3%;
+
+}
+.inspireel-sec-7-main-container-row-col1{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* -------------------section 7 media query---------------------- */
+@media (min-width:320px) and (max-width:1000px){
+  .inspireel-sec-7-main-heading{
+        margin-left: 0;
+        text-align: center;
+  }
+  /* .inspireel-sec-7-main-container-row-col1 img{
+    width: 100%;
+  } */
+}
+
+/* ---------------------section 8 css ------------------ */
+.inspireel-sec-8-main{
+  padding: 5% 0 5% 0;
+  background: rgba(106, 61, 164, 0.15);
+
+}
+.inspireel-sec-8-main-row{
+  display: flex;
+  justify-content: center;
+}
+.inspireel-sec-8-main-h1{
+  font-family: "Inter", sans-serif;
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 43.75px;
+/* text-align: left; */
+color: rgba(106, 61, 164, 1);
+margin-bottom: 3%;
+;
+
+}
+
+
+
+/* ---------------------------------section 8 media query----------------- */
+@media (min-width:320px) and (max-width:1000px){
+  .inspireel-sec-8-main-row{
+    display: flex;
+    justify-content: center;
+  }
+  .inspireel-sec-8-main-h1{
+    text-align: center;
+  }
+  .inspireel-sec-8-main-row-1{
+    display: flex;
+    justify-content: center;
+  }
+  .inspireel-sec-8-main-row-2{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* -------------------section 9 css from here----------------- */
+.insipreel-sec-9-main{
+  background: url(images/inspireel-sec-9-bg-img.png) no-repeat;
+  width: 100%;
+  background-position: top bottom center;
+  background-size: cover;
+  /* height: 80vh; */
+  padding: 5% 0 5% 0;
+}
+.insipreel-sec-9-main-contact-us{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 5%;
+
+}
+.insipreel-sec-9-main-contact-us-left{
+  width: 60%;
+}
+.insipreel-sec-9-main-contact-us-right{
+  width: 30%;
+  /* height: 50%; */
+  background: rgba(106, 61, 164, 1);
+  border-radius: 10px;
+  padding-bottom: 3%;
+}
+.insipreel-sec-9-main-contact-us-right-h1{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 6%;
+}
+
+.insipreel-sec-9-main-contact-us-right-adress{
+  display: flex;
+  gap: 20px;
+  margin-top: 8%;
+  
+  
+}
+
+.insipreel-sec-9-main-contact-us-right-ph-no{
+  display: flex;
+  gap: 20px;
+  margin-top: 5%;
+  
+}
+
+.insipreel-sec-9-main-contact-us-right-email-add{
+  display: flex;
+  gap: 20px;
+  margin-top: 5%;
+ 
+}
+
+.insipreel-sec-9-main-contact-us-right-adress-img{
+  margin-left: 11%;
+}
+
+.insipreel-sec-9-main-contact-us-right-ph-no-img{
+  margin-left: 11%;
+}
+
+.insipreel-sec-9-main-contact-us-right-email-add-img{
+  margin-left: 11%;
+}
+
+
+.insipreel-sec-9-main-contact-us-right-adress-h1-p1{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  /* text-align: left; */
+  color:rgba(255, 255, 255, 1);
+  margin-bottom: 0%;
+  margin-top: -1%;
+}
+.insipreel-sec-9-main-contact-us-right-ph-no-h1-p1{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  /* text-align: left; */
+  color:rgba(255, 255, 255, 1);
+  margin-bottom: 0%;
+  margin-top: -1%;
+}
+
+.insipreel-sec-9-main-contact-us-right-email-add-h1-p1{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  /* text-align: left; */
+  color:rgba(255, 255, 255, 1);
+  margin-bottom: 0%;
+  margin-top: -1%;
+}
+
+.insipreel-sec-9-main-contact-us-right-adress-h1-p2{
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+/* text-align: left; */
+color: rgba(255, 255, 255, 1);
+opacity: 1.5;
+}
+
+.insipreel-sec-9-main-contact-us-right-ph-no-h1-p2{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /* text-align: left; */
+  color: rgba(255, 255, 255, 1);
+  opacity: 1.5;
+}
+
+.insipreel-sec-9-main-contact-us-right-email-add-h1-p2{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /* text-align: left; */
+  color: rgba(255, 255, 255, 1);
+  opacity: 1.5;
+}
+
+/* ------------------------section 9 media query ------------- */
+
+@media (min-width:320px) and (max-width:1000px){
+  .insipreel-sec-9-main{
+        width: 100vw;
+        background-size: cover;
+        /* height: 60vh; */
+        background-position: center;
+        /* padding: 0px 0px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+  .insipreel-sec-9-main-contact-us-left{
+    width: 0%;
+  }
+  .insipreel-sec-9-main-contact-us-right{
+    width: 90%;
+   /* display: flex; 
+  justify-content: center;  */
+    margin-right: 2%;
+    /* margin-right: 2%; */
+  }
+
+  .insipreel-sec-9-main-contact-us-right-h1 {
+    /* text-align: center;
+    font-family: "Inter", sans-serif; */
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    /* margin-top: 6%; */
+}
+
+  
+  
+}
+
+/* --------------------------footer section starts from here--------------------------- */
+footer{
+  background-color: rgba(106, 61, 164, 1);
+  padding: 5% 0 5% 0;
+  
+}
+.footer-links li a{
+  text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 35px;
+    /* text-align: left;*/
+  
+  ;
+}
+.footer-social-media-icon li a{
+  color:rgba(255, 255, 255, 1);
+  
+  text-decoration: none;
+  /* display: flex; */
+  /* padding: 10px 20px; */
+  /* flex-direction: row; */
+  font-size: 30px;
+}
+footer h3{
+  color: rgba(255, 255, 255, 1);
+  font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 30px;
+/* text-align: left; */
+letter-spacing: 3.3px;
+
+  
+}
+.footer-sec-col-1-p1{
+  color: rgba(255, 255, 255, 1);
+  ;
+  font-family: "Inter" ,sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  /* text-align: left; */
+  margin-top: 24px;
+  
+}
+.reach-out-main-inner{
+  display: flex;
+  gap: 10px;
+}
+.reach-out-main-inner-p1{
+  font-family: "Poppins" ,sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+/* text-align: left; */
+color: rgba(255, 255, 255, 1);
+
+}
+.reach-out-main{
+  margin-top: 50px;
+}
+.list-unstyled{
+  margin-top: 40px;
+}
+
+/* -----------------------footer media query----------------------- */
+@media (min-width:320px) and (max-width:1000px){
+  .reach-out-main{
+    margin-top: 0px;
+  }
+  .list-unstyled{
+    margin-top: 0px;
+  }
+}
